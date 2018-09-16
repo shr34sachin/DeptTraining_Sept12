@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.sachinshrestha.depttraining_sept12.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
