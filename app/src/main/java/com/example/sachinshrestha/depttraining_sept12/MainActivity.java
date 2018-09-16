@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
 //        teacher1 = new Teacher(25,"Amit Shah","M","Elx");
 //        teacher2 = new Teacher(38, "Kailash Karki","M","Elx");
 //        hodEle = new HOD();
