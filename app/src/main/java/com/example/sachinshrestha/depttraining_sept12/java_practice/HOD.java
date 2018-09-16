@@ -1,4 +1,4 @@
-package com.example.sachinshrestha.depttraining_sept12;
+package com.example.sachinshrestha.depttraining_sept12.java_practice;
 
 import android.util.Log;
 
