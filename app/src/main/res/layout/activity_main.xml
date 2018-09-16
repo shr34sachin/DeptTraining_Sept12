@@ -7,8 +7,10 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Log In Section"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"/>
 
 </LinearLayout>
