@@ -4,13 +4,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/myBackgroundColor"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Log In Section"
-        android:gravity="center_horizontal"
+        android:text="@string/log_in"
+        android:textColor="@color/myFontColor"
+        android:layout_gravity="center_horizontal"
         android:textSize="30sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:textColor="@color/myFontColor"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textColor="@color/myFontColor"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/myBtnColor"
+        android:text="@string/sign_in"/>
 
 </LinearLayout>
