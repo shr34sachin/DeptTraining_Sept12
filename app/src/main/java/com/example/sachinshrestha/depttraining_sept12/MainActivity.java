@@ -3,6 +3,10 @@ package com.example.sachinshrestha.depttraining_sept12;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.sachinshrestha.depttraining_sept12.R;
 
@@ -21,10 +25,31 @@ public class MainActivity extends AppCompatActivity {
 //    String[] arrayString = {"1", "two", "teen"};
 
 
+    Button btnSignin;
+    EditText etUsername, etPassword;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        etUsername = findViewById(R.id.etUsername);
+        etPassword = findViewById(R.id.etPassword);
+        btnSignin = findViewById(R.id.btnSignin);
+
+
+
+        btnSignin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String username = etUsername.getText().toString();
+                String password = etPassword.getText().toString();
+
+                if(username.equals("s") && password.equals("s")) {
+                    Toast.makeText(MainActivity.this, "Signed In", Toast.LENGTH_LONG).show();
+                }
+            }
+        });
 
 
 //        teacher1 = new Teacher(25,"Amit Shah","M","Elx");

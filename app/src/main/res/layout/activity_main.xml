@@ -16,6 +16,7 @@
         android:textSize="30sp"/>
 
     <EditText
+        android:id="@+id/etUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/username"
@@ -23,6 +24,7 @@
         android:textSize="20sp"/>
 
     <EditText
+        android:id="@+id/etPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/password"
@@ -30,6 +32,7 @@
         android:textSize="20sp"/>
 
     <Button
+        android:id="@+id/btnSignin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
