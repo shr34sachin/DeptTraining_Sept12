@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".relative_layout_test1.MeroRelativeLayout">
+
+    <TextView
+        android:id="@+id/tvDataEntryForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Entry Form"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/tvDataEntryForm"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher_round"/>
+
+    <TextView
+        android:id="@+id/tvNEC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDataEntryForm"
+        android:text="Nepal Engineering College"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/ivLogo"
+        android:layout_toEndOf="@id/ivLogo"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Changunarayan, Bhaktapur"
+        android:layout_toRightOf="@id/ivLogo"
+        android:layout_toEndOf="@id/ivLogo"
+        android:layout_below="@id/tvNEC"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:id="@+id/tvNameEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivLogo"
+        android:layout_marginTop="20dp"
+        android:text="Name:"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/etNameEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/ivLogo"
+        android:layout_below="@id/ivLogo"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/tvAddressEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNameEntry"
+        android:layout_marginTop="20dp"
+        android:text="Address:"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/etAddressEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/ivLogo"
+        android:layout_below="@id/etNameEntry"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAgeEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etAddressEntry"
+        android:layout_marginTop="20dp"
+        android:text="Age:"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/etAgeEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/ivLogo"
+        android:layout_below="@id/etAddressEntry"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/tvGenderEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAgeEntry"
+        android:layout_marginTop="20dp"
+        android:text="Gender:"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/etGenderEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/ivLogo"
+        android:layout_below="@id/etAgeEntry"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/etGenderEntry"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/ivLogo"
+        android:onClick="DataDisplayGarr"
+        android:text="Submit"/>
+
+</RelativeLayout>

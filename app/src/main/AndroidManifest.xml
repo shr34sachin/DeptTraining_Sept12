@@ -15,9 +15,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".MeroNayaActivity" />
-        <activity android:name=".interest_calculator_package.InterestCalculator">
+        <activity android:name=".interest_calculator_package.InterestCalculator" />
+        <activity android:name=".relative_layout_test.RelativeLayoutTest" />
+        <activity android:name=".relative_layout_test1.MeroRelativeLayout"></activity>
+        <activity android:name=".anil_sir_ko_lagi_scrollview.CheckScrollView"></activity>
+        <activity android:name=".anil_sir_ko_lagi_scrollview.WelcomeScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
