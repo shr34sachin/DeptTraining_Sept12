@@ -20,15 +20,22 @@
         <activity android:name=".relative_layout_test1.MeroRelativeLayout" />
         <activity android:name=".anil_sir_ko_lagi_scrollview.CheckScrollView" />
         <activity android:name=".anil_sir_ko_lagi_scrollview.WelcomeScreen" />
-        <activity android:name=".menu_listview_test.MenuNListView" />
-        <activity android:name=".mero_menu_listview.MeroMenu">
+        <activity android:name=".menu_listview_dialogbox_backpress_test.MenuNListViewTest" />
+        <activity android:name=".mero_menu_listview.MeroMenu" />
+        <activity android:name=".mero_menu_listview.AboutUs" />
+        <activity android:name=".mero_listviewadapter_dialogbox_backpress_recyclerview.MeroListViewCustomAdapter" />
+        <activity android:name=".recyclerview_test.RecyclerViewImplementationTest" />
+        <activity android:name=".mero_listviewadapter_dialogbox_backpress_recyclerview.RecyclerViewnDialog" />
+        <activity android:name=".database_sharedpreference_package_test.DatabaseSharedPrefImplementationTest"></activity>
+        <activity android:name=".mero_database_sharedpref_package.MeroSharedPreferacneImplementation">
+        </activity>
+        <activity android:name=".mero_database_sharedpref_package.MeroDatabaseImplementation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".mero_menu_listview.AboutUs"></activity>
     </application>
 
 </manifest>

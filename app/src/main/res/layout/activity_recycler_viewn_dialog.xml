@@ -5,18 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".menu_listview_dialogbox_backpress_test.MenuNListViewTest">
+    android:padding="16dp"
+    tools:context=".mero_listviewadapter_dialogbox_backpress_recyclerview.RecyclerViewnDialog">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="List of Cities"/>
+        android:text="List of cities"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
 
-    <ListView
-        android:id="@+id/lvListView"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvRecyclerviewListofCities"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </ListView>
+    </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>
